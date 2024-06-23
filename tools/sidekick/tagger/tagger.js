@@ -1,4 +1,4 @@
-import { getTags } from '../../../../scripts/tags.js';
+import { getTags } from '../../../scripts/tags.js';
 
 let selectedOrder = [];
 

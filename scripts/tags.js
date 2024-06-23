@@ -1,4 +1,3 @@
-
 const tagsEndpoint = '/tags.json';
 let tagsPromise;
 const titleToName = ((name) => name.toLowerCase().replace(' ', '-'));
