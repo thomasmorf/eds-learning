@@ -1,0 +1,24 @@
+    .quote {
+        color: red;
+        position: relative;
+    }
+
+    blockquote::before {
+        content: "\201C"; /* Unicode character for opening double quotation mark */
+        position: absolute;
+        top: 50%;
+        left: 20px; /* Adjust the value to position the quote symbol */
+        transform: translateY(-50%);
+        font-size: 34px; /* Adjust the font size as needed */
+        color: red; /* Adjust the color of the quote symbol */
+    }
+
+    blockquote::after {
+        content: "\201D"; /* Unicode character for closing double quotation mark */
+        position: relative;
+        top: 50%;
+        right: -10px; /* Adjust the value to position the quote symbol */
+        transform: translateY(-50%);
+        font-size: 34px; /* Adjust the font size as needed */
+        color: red; /* Adjust the color of the quote symbol */
+    }
